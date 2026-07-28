@@ -139,10 +139,10 @@ A drillable dashboard tying every insight above into a single interactive view â
 
 ## ðŸ“Š Dashboard Preview
 
-Executive Overview
+### Executive Overview
 <img width="1168" height="733" alt="Screenshot 2026-07-28 121824" src="https://github.com/user-attachments/assets/c4d63ae1-98bb-4433-96d7-0f775705e781" />
 
-Player Engagement
+### Player Engagement
 <img width="1167" height="731" alt="Screenshot 2026-07-28 121848" src="https://github.com/user-attachments/assets/66ae1f36-4926-450c-a044-26c54017b9d9" />
 
 Monetization
