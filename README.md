@@ -9,19 +9,31 @@ Grand Theft Auto V is one of the best-selling entertainment products of all time
 Rather than sticking to a single tool, this project answers the same business questions four different ways — as a demonstration of end-to-end data analytics versatility:
 
 🗄️ Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
+
 📊 Reporting — Excel: Pivot tables & summary dashboards for stakeholders
+
 🐍 Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
+
 📈 Visualization — Power BI: Interactive, drillable business dashboard
 
 
 🔍 Key Questions Answered
+
 💰 How has global revenue evolved year-over-year, and what's the cumulative growth trend?
+
 🌍 Which countries and regions drive the most units sold and revenue?
+
 🎮 Is GTA Online cannibalizing Story Mode engagement — and where?
+
 💳 How much of the revenue mix comes from DLC vs. Shark Card purchases?
+
 🏆 How do sale events affect discount depth and refund rates?
+
 📉 Does GDP per capita correlate with regional spending power?
+
 🔮 What does the next 12 months of revenue look like? (Prophet forecast)
+
+
 
 
 
@@ -51,8 +63,8 @@ GTA-V-Sales-Analytics/
 
 🗄️ 1. SQL Analysis — Business Questions in Pure Query Logic
 
-11 queries covering the full analytical spectrum:
 
+11 queries covering the full analytical spectrum:
 #	Query and Technique
 
 1	Total revenue by year- GROUP BY
