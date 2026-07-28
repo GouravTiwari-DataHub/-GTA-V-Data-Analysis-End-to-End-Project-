@@ -23,6 +23,10 @@ Rather than sticking to a single tool, this project answers the same business qu
 📉 Does GDP per capita correlate with regional spending power?
 🔮 What does the next 12 months of revenue look like? (Prophet forecast)
 
+
+
+
+
 🗂️ Repository Structure
 GTA-V-Sales-Analytics/
 ├── README.md
@@ -42,21 +46,35 @@ GTA-V-Sales-Analytics/
 
 
 
+
+
+
 🗄️ 1. SQL Analysis — Business Questions in Pure Query Logic
 
 11 queries covering the full analytical spectrum:
 
-#	Query	Technique
+#	Query and Technique
+
 1	Total revenue by year- GROUP BY
+
 2	Top 10 countries by units sold- ORDER BY + LIMIT
+
 3	Regions with avg. rating > 4.5-	HAVING
+
 4	Year-over-year revenue growth-	LAG() window function
+
 5	Country revenue ranking per year-	RANK() OVER (PARTITION BY)
+
 6	Cumulative (running) revenue-	SUM() OVER with frame clause
+
 7	GTA Online growth vs. Story Mode decline-	CTEs + LAG()
+
 8	Revenue per capita by GDP tier-	CASE WHEN segmentation
+
 9	Countries above global avg. selling price-	Correlated subquery
+
 10	Monetization mix by year (DLC vs. Shark Cards)-	Multi-metric aggregation
+
 11	Discount % vs. refund rate by sale event-	Cross-metric comparison
 
 
@@ -67,9 +85,12 @@ GTA-V-Sales-Analytics/
 
 A clean, presentation-style workbook with:
 
+
 Introduction & Conclusion sheets framing the story
 
+
 7 Pivot Tables covering revenue/units, country-wise sales, platform trends, player engagement, revenue sources, customer growth, and customer sentiment
+
 
 Digital vs. Physical sales share tracked across platform generations (PS3 → PS5 / Xbox 360 → Series X|S)
 
@@ -79,11 +100,17 @@ Digital vs. Physical sales share tracked across platform generations (PS3 → PS
 
 Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
+
 ✅ Data Cleaning: null handling (special_event, major_sale_event), duplicate & negative-value checks, outlier detection via boxplots
+
 📅 Feature Engineering: synthetic date column from year + month for time-series work
+
 🔥 Correlation Heatmap: relationships between revenue, discounting, marketing spend, GDP, and internet penetration
+
 🧩 Segment Analysis: revenue & refund rate by sales channel, region vs. macroeconomic factors, GDP vs. revenue scatter plots
+
 ⏳ Time-Series & Seasonality: revenue trends over time, holiday vs. non-holiday spending, platform generation transitions
+
 🔮 Forecasting: 12-month revenue forecast using Facebook Prophet, with confidence intervals (yhat_lower / yhat_upper)
 
 
