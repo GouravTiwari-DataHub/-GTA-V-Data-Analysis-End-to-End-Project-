@@ -175,6 +175,20 @@ SQL · Python (Pandas, NumPy, Matplotlib, Seaborn, Prophet) · Microsoft Excel �
 🌐 Multi-year, multi-country, multi-platform dataset (2013–2018+)
 
 
+
+
+# 🌟 Enjoyed This?
+
+Cool, prove it. Smash that star button — it's free, it takes half a second, and unlike GTA Online, there's no loading screen.
+
+Not because I need the validation, but because GitHub's algorithm apparently does.
+
+Didn't enjoy it? Also fine. Take it up with the [Issues tab](../../issues) — I promise I read those faster than Rockstar reads bug reports.
+
+No cap, no NPCs were harmed in the making of this analysis — just my sleep schedule.
+
+
+
 ## Note: Some CSV files may not preview properly on GitHub due to formatting, but they can be downloaded and used without issues.
 
 
