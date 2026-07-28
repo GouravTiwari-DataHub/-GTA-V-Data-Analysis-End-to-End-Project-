@@ -18,6 +18,8 @@ Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue fore
 Visualization — Power BI: Interactive, drillable business dashboard
 
 
+
+
 Key Questions Answered
 
 💰 How has global revenue evolved year-over-year, and what's the cumulative growth trend?
