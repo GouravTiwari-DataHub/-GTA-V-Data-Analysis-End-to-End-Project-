@@ -2,22 +2,23 @@
 
 A 360° data analysis project exploring 10+ years of Grand Theft Auto V sales, player engagement, and monetization data — through SQL, Excel, Python, and Power BI.
 
-🕹️ About the Project
+About the Project
 
 Grand Theft Auto V is one of the best-selling entertainment products of all time. This project simulates and analyzes a global, transaction-level dataset spanning 2013–2018+, covering revenue, units sold, GTA Online vs. Story Mode engagement, monetization streams (DLC & Shark Cards), regional economics, and customer sentiment.
 
+
 Rather than sticking to a single tool, this project answers the same business questions four different ways — as a demonstration of end-to-end data analytics versatility:
 
-🗄️ Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
+Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
 
-📊 Reporting — Excel: Pivot tables & summary dashboards for stakeholders
+Reporting — Excel: Pivot tables & summary dashboards for stakeholders
 
-🐍 Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
+Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
 
-📈 Visualization — Power BI: Interactive, drillable business dashboard
+Visualization — Power BI: Interactive, drillable business dashboard
 
 
-🔍 Key Questions Answered
+Key Questions Answered
 
 💰 How has global revenue evolved year-over-year, and what's the cumulative growth trend?
 
@@ -39,7 +40,8 @@ Rather than sticking to a single tool, this project answers the same business qu
 
 
 
-🗂️ Repository Structure
+Repository Structure
+
 GTA-V-Sales-Analytics/
 ├── README.md
 ├── data/
@@ -61,7 +63,7 @@ GTA-V-Sales-Analytics/
 
 
 
-🗄️ 1. SQL Analysis — Business Questions in Pure Query Logic
+1. SQL Analysis — Business Questions in Pure Query Logic
 
 
 11 queries covering the full analytical spectrum:
@@ -93,7 +95,7 @@ GTA-V-Sales-Analytics/
 
 
 
-📊 2. Excel Analysis — Stakeholder-Ready Pivots
+2. Excel Analysis — Stakeholder-Ready Pivots
 
 A clean, presentation-style workbook with:
 
@@ -108,7 +110,7 @@ Digital vs. Physical sales share tracked across platform generations (PS3 → PS
 
 
 
-🐍 3. Python Analysis — EDA + Forecasting
+3. Python Analysis — EDA + Forecasting
 
 Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
@@ -127,7 +129,7 @@ Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
 
 
-📈 4. Power BI Dashboard — Interactive Storytelling
+4. Power BI Dashboard — Interactive Storytelling
 
 A drillable dashboard tying every insight above into a single interactive view — filter by year, region, platform, and sales channel to explore revenue, player base, and monetization trends visually.
 
@@ -150,17 +152,22 @@ Sales and Performance
 
 
 
-🧠 Tech Stack
+Tech Stack
 
 SQL · Python (Pandas, NumPy, Matplotlib, Seaborn, Prophet) · Microsoft Excel · Power BI · Jupyter Notebook
 
 
 
-🚀 Highlights
+Highlights
+
 🔢 11 SQL queries spanning aggregation → window functions → CTEs → correlated subqueries
+
 📊 7 Excel pivot tables built for non-technical stakeholders
+
 🐍 Full Python EDA pipeline with cleaning, correlation, segmentation, and time-series forecasting
+
 📈 Power BI dashboard for interactive exploration
+
 🌐 Multi-year, multi-country, multi-platform dataset (2013–2018+)
 
 
