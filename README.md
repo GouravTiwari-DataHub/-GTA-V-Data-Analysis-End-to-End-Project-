@@ -9,13 +9,13 @@ Grand Theft Auto V is one of the best-selling entertainment products of all time
 
 Rather than sticking to a single tool, this project answers the same business questions four different ways — as a demonstration of end-to-end data analytics versatility:
 
-## Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
+### Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
 
-## Reporting — Excel: Pivot tables & summary dashboards for stakeholders
+### Reporting — Excel: Pivot tables & summary dashboards for stakeholders
 
-## Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
+### Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
 
-## Visualization — Power BI: Interactive, drillable business dashboard
+### Visualization — Power BI: Interactive, drillable business dashboard
 
 
 
