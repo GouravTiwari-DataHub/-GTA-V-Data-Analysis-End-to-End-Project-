@@ -20,7 +20,7 @@ Rather than sticking to a single tool, this project answers the same business qu
 
 
 
-Key Questions Answered
+## Key Questions Answered
 
 💰 How has global revenue evolved year-over-year, and what's the cumulative growth trend?
 
@@ -42,7 +42,7 @@ Key Questions Answered
 
 
 
-Repository Structure
+# Repository Structure
 
 GTA-V-Sales-Analytics/
 ├── README.md
@@ -71,7 +71,7 @@ GTA-V-Sales-Analytics/
 11 queries covering the full analytical spectrum:
 
 
-Query and Technique
+## Query and Technique
 
 1	Total revenue by year- GROUP BY
 
@@ -99,22 +99,22 @@ Query and Technique
 
 
 
-2. Excel Analysis — Stakeholder-Ready Pivots
+# 2. Excel Analysis — Stakeholder-Ready Pivots
 
 A clean, presentation-style workbook with:
 
 
-Introduction & Conclusion sheets framing the story
+1. Introduction & Conclusion sheets framing the story.
 
 
-7 Pivot Tables covering revenue/units, country-wise sales, platform trends, player engagement, revenue sources, customer growth, and customer sentiment
+2. 7 Pivot Tables covering revenue/units, country-wise sales, platform trends, player engagement, revenue sources, customer growth, and customer sentiment.
 
 
-Digital vs. Physical sales share tracked across platform generations (PS3 → PS5 / Xbox 360 → Series X|S)
+3. Digital vs. Physical sales share tracked across platform generations (PS3 → PS5 / Xbox 360 → Series X|S).
 
 
 
-3. Python Analysis — EDA + Forecasting
+# 3. Python Analysis — EDA + Forecasting
 
 Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
@@ -133,11 +133,11 @@ Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
 
 
-4. Power BI Dashboard — Interactive Storytelling
+# 4. Power BI Dashboard — Interactive Storytelling
 
 A drillable dashboard tying every insight above into a single interactive view — filter by year, region, platform, and sales channel to explore revenue, player base, and monetization trends visually.
 
-📊 Dashboard Preview
+## 📊 Dashboard Preview
 
 Executive Overview
 <img width="1168" height="733" alt="Screenshot 2026-07-28 121824" src="https://github.com/user-attachments/assets/c4d63ae1-98bb-4433-96d7-0f775705e781" />
@@ -156,13 +156,13 @@ Sales and Performance
 
 
 
-Tech Stack
+# Tech Stack
 
 SQL · Python (Pandas, NumPy, Matplotlib, Seaborn, Prophet) · Microsoft Excel · Power BI · Jupyter Notebook
 
 
 
-Highlights
+# Highlights
 
 🔢 11 SQL queries spanning aggregation → window functions → CTEs → correlated subqueries
 
@@ -176,6 +176,6 @@ Highlights
 
 
 
-👤 Author
+# 👤 Author
 
 Gourav Tiwari — Data Analyst 📧 gouravtiwari3034@gmail.com | 🔗(https://www.linkedin.com/in/gourav-tiwari-92a43b225/?lipi=urn%3Ali%3Apage%3Ad_flagship3_notifications%3BYocoX2DYSomk2ZW0beGb6g%3D%3D)
