@@ -1,21 +1,21 @@
-🎮 GTA V Global Sales & Player Analytics
+# 🎮 GTA V Global Sales & Player Analytics
 
 A 360° data analysis project exploring 10+ years of Grand Theft Auto V sales, player engagement, and monetization data — through SQL, Excel, Python, and Power BI.
 
-About the Project
+## About the Project
 
 Grand Theft Auto V is one of the best-selling entertainment products of all time. This project simulates and analyzes a global, transaction-level dataset spanning 2013–2018+, covering revenue, units sold, GTA Online vs. Story Mode engagement, monetization streams (DLC & Shark Cards), regional economics, and customer sentiment.
 
 
 Rather than sticking to a single tool, this project answers the same business questions four different ways — as a demonstration of end-to-end data analytics versatility:
 
-Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
+# Querying — SQL: Aggregations, window functions, CTEs, and correlated subqueries
 
-Reporting — Excel: Pivot tables & summary dashboards for stakeholders
+# Reporting — Excel: Pivot tables & summary dashboards for stakeholders
 
-Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
+# Deep Dive — Python: Data cleaning, EDA, correlation analysis, and revenue forecasting
 
-Visualization — Power BI: Interactive, drillable business dashboard
+# Visualization — Power BI: Interactive, drillable business dashboard
 
 
 
@@ -65,11 +65,13 @@ GTA-V-Sales-Analytics/
 
 
 
-1. SQL Analysis — Business Questions in Pure Query Logic
+# 1. SQL Analysis — Business Questions in Pure Query Logic
 
 
 11 queries covering the full analytical spectrum:
-#	Query and Technique
+
+
+Query and Technique
 
 1	Total revenue by year- GROUP BY
 
