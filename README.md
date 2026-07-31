@@ -1,4 +1,4 @@
-# 🎮 GTA V Global Sales & Player Analytics
+# 🎮 GTA V Global Sales & Player Analytics (End to End Project)
 
 A 360° data analysis project exploring 10+ years of Grand Theft Auto V sales, player engagement, and monetization data — through SQL, Excel, Python, and Power BI.
 
