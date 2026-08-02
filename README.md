@@ -147,10 +147,11 @@ A drillable dashboard tying every insight above into a single interactive view â
 <img width="1171" height="732" alt="Dashboard 2  Player Engagement" src="https://github.com/user-attachments/assets/cc2e15ad-a0f6-4e26-8c2c-41f3ffff7d31" />
 
 ### Monetization
-<img width="1168" height="730" alt="Dashboard 3  Monetization" src="https://github.com/user-attachments/assets/97acc35d-2789-4190-ac34-72171e8046c2" />
+<img width="1170" height="728" alt="Dashboard 3  Monetization" src="https://github.com/user-attachments/assets/d3dfda9c-f215-471f-82de-fe54d5c078f7" />
+
 
 ### Market Intelligence
-<img width="1166" height="728" alt="Dashboard 4  Market Intelligence" src="https://github.com/user-attachments/assets/7226ab26-88b1-4b3f-8e3d-3ec26223eef6" />
+<img width="1172" height="732" alt="Dashboard 4  Market Intelligence" src="https://github.com/user-attachments/assets/2f5aeb89-e0b5-45fc-b3d5-7da6ada8d926" />
 
 ### Sales and Performance
 <img width="1170" height="727" alt="Dashboard 5  Sales Performance" src="https://github.com/user-attachments/assets/162d1f38-4907-4f67-92a1-88a50eb06e46" />
