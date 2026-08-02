@@ -140,19 +140,20 @@ A drillable dashboard tying every insight above into a single interactive view â
 ## ðŸ“Š Dashboard Preview
 
 ### Executive Overview
-<img width="1168" height="733" alt="Screenshot 2026-07-28 121824" src="https://github.com/user-attachments/assets/c4d63ae1-98bb-4433-96d7-0f775705e781" />
+<img width="1170" height="732" alt="Dashboard 1  Executive Summery" src="https://github.com/user-attachments/assets/b5a47b75-11d1-4077-8521-15e9ef5aa1ae" />
+
 
 ### Player Engagement
-<img width="1167" height="731" alt="Screenshot 2026-07-28 121848" src="https://github.com/user-attachments/assets/66ae1f36-4926-450c-a044-26c54017b9d9" />
+<img width="1171" height="732" alt="Dashboard 2  Player Engagement" src="https://github.com/user-attachments/assets/cc2e15ad-a0f6-4e26-8c2c-41f3ffff7d31" />
 
 ### Monetization
-<img width="1168" height="732" alt="Screenshot 2026-07-28 122707" src="https://github.com/user-attachments/assets/caf495a5-369f-4c77-8a9a-6331119bd2bb" />
+<img width="1168" height="730" alt="Dashboard 3  Monetization" src="https://github.com/user-attachments/assets/97acc35d-2789-4190-ac34-72171e8046c2" />
 
 ### Market Intelligence
-<img width="1170" height="730" alt="Screenshot 2026-07-28 121922" src="https://github.com/user-attachments/assets/760e9547-f6cb-4b0a-b03d-84a01e34de14" />
+<img width="1166" height="728" alt="Dashboard 4  Market Intelligence" src="https://github.com/user-attachments/assets/7226ab26-88b1-4b3f-8e3d-3ec26223eef6" />
 
 ### Sales and Performance
-<img width="1166" height="728" alt="Screenshot 2026-07-28 122300" src="https://github.com/user-attachments/assets/44013a51-c321-4ab1-adbe-9b81bab035f7" />
+<img width="1170" height="727" alt="Dashboard 5  Sales Performance" src="https://github.com/user-attachments/assets/162d1f38-4907-4f67-92a1-88a50eb06e46" />
 
 
 
