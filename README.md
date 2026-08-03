@@ -22,19 +22,19 @@ Rather than sticking to a single tool, this project answers the same business qu
 
 ## Key Questions Answered
 
--How has global revenue evolved year-over-year, and what's the cumulative growth trend?
+* How has global revenue evolved year-over-year, and what's the cumulative growth trend?
 
--Which countries and regions drive the most units sold and revenue?
+* Which countries and regions drive the most units sold and revenue?
 
--Is GTA Online cannibalizing Story Mode engagement — and where?
+* Is GTA Online cannibalizing Story Mode engagement — and where?
 
--How much of the revenue mix comes from DLC vs. Shark Card purchases?
+* How much of the revenue mix comes from DLC vs. Shark Card purchases?
 
--How do sale events affect discount depth and refund rates?
+* How do sale events affect discount depth and refund rates?
 
--Does GDP per capita correlate with regional spending power?
+* Does GDP per capita correlate with regional spending power?
 
--What does the next 12 months of revenue look like? (Prophet forecast)
+* What does the next 12 months of revenue look like? (Prophet forecast)
 
 
 
@@ -73,27 +73,27 @@ GTA-V-Sales-Analytics/
 
 ## Query and Technique
 
-1	Total revenue by year- GROUP BY
+1. Total revenue by year- GROUP BY
 
-2	Top 10 countries by units sold- ORDER BY + LIMIT
+2. Top 10 countries by units sold- ORDER BY + LIMIT
 
-3	Regions with avg. rating > 4.5-	HAVING
+3. Regions with avg. rating > 4.5-	HAVING
 
-4	Year-over-year revenue growth-	LAG() window function
+4. Year-over-year revenue growth-	LAG() window function
 
-5	Country revenue ranking per year-	RANK() OVER (PARTITION BY)
+5. Country revenue ranking per year-	RANK() OVER (PARTITION BY)
 
-6	Cumulative (running) revenue-	SUM() OVER with frame clause
+6. Cumulative (running) revenue-	SUM() OVER with frame clause
 
-7	GTA Online growth vs. Story Mode decline-	CTEs + LAG()
+7. GTA Online growth vs. Story Mode decline-	CTEs + LAG()
 
-8	Revenue per capita by GDP tier-	CASE WHEN segmentation
+8. Revenue per capita by GDP tier-	CASE WHEN segmentation
 
-9	Countries above global avg. selling price-	Correlated subquery
+9. Countries above global avg. selling price-	Correlated subquery
 
-10	Monetization mix by year (DLC vs. Shark Cards)-	Multi-metric aggregation
+10. Monetization mix by year (DLC vs. Shark Cards)-	Multi-metric aggregation
 
-11	Discount % vs. refund rate by sale event-	Cross-metric comparison
+11. Discount % vs. refund rate by sale event-	Cross-metric comparison
 
 
 
@@ -116,20 +116,19 @@ A clean, presentation-style workbook with:
 
 # 3. Python Analysis — EDA + Forecasting
 
-Built with pandas, numpy, matplotlib, seaborn, and prophet:
+* Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
+* Data Cleaning: null handling (special_event, major_sale_event), duplicate & negative-value checks, outlier detection via boxplots
 
-Data Cleaning: null handling (special_event, major_sale_event), duplicate & negative-value checks, outlier detection via boxplots
+* Feature Engineering: synthetic date column from year + month for time-series work
 
-Feature Engineering: synthetic date column from year + month for time-series work
+* Correlation Heatmap: relationships between revenue, discounting, marketing spend, GDP, and internet penetration
 
-Correlation Heatmap: relationships between revenue, discounting, marketing spend, GDP, and internet penetration
+* Segment Analysis: revenue & refund rate by sales channel, region vs. macroeconomic factors, GDP vs. revenue scatter plots
 
-Segment Analysis: revenue & refund rate by sales channel, region vs. macroeconomic factors, GDP vs. revenue scatter plots
+* Time-Series & Seasonality: revenue trends over time, holiday vs. non-holiday spending, platform generation transitions
 
-Time-Series & Seasonality: revenue trends over time, holiday vs. non-holiday spending, platform generation transitions
-
-Forecasting: 12-month revenue forecast using Facebook Prophet, with confidence intervals (yhat_lower / yhat_upper)
+* Forecasting: 12-month revenue forecast using Facebook Prophet, with confidence intervals (yhat_lower / yhat_upper)
 
 
 
@@ -166,13 +165,13 @@ SQL · Python (Pandas, NumPy, Matplotlib, Seaborn, Prophet) · Microsoft Excel �
 
 # Highlights
 
-11 SQL queries spanning aggregation → window functions → CTEs → correlated subqueries
+* 11 SQL queries spanning aggregation → window functions → CTEs → correlated subqueries
 
-7 Excel pivot tables built for non-technical stakeholders
+* 7 Excel pivot tables built for non-technical stakeholders
 
-Full Python EDA pipeline with cleaning, correlation, segmentation, and time-series forecasting
+* Full Python EDA pipeline with cleaning, correlation, segmentation, and time-series forecasting
 
-Power BI dashboard for interactive exploration
+* Power BI dashboard for interactive exploration
  Multi-year, multi-country, multi-platform dataset (2013–2018+)
 
 
