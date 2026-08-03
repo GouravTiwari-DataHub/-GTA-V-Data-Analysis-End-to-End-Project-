@@ -136,21 +136,21 @@ A drillable dashboard tying every insight above into a single interactive view â
 
 ## Dashboard Preview
 
-### Executive Overview
+### 1. Executive Overview
 <img width="1170" height="732" alt="Dashboard 1  Executive Summery" src="https://github.com/user-attachments/assets/b5a47b75-11d1-4077-8521-15e9ef5aa1ae" />
 
 
-### Player Engagement
+### 2. Player Engagement
 <img width="1171" height="732" alt="Dashboard 2  Player Engagement" src="https://github.com/user-attachments/assets/cc2e15ad-a0f6-4e26-8c2c-41f3ffff7d31" />
 
-### Monetization
+### 3. Monetization
 <img width="1170" height="728" alt="Dashboard 3  Monetization" src="https://github.com/user-attachments/assets/d3dfda9c-f215-471f-82de-fe54d5c078f7" />
 
 
-### Market Intelligence
+### 4. Market Intelligence
 <img width="1172" height="732" alt="Dashboard 4  Market Intelligence" src="https://github.com/user-attachments/assets/2f5aeb89-e0b5-45fc-b3d5-7da6ada8d926" />
 
-### Sales and Performance
+### 5. Sales and Performance
 <img width="1170" height="727" alt="Dashboard 5  Sales Performance" src="https://github.com/user-attachments/assets/162d1f38-4907-4f67-92a1-88a50eb06e46" />
 
 
