@@ -37,13 +37,16 @@ Rather than sticking to a single tool, this project answers the same business qu
 * What does the next 12 months of revenue look like? (Prophet forecast)
 
 
-# 1. SQL Analysis — Business Questions in Pure Query Logic
+#Tools & Techniques Used
+### This project intentionally recreates the same analysis across four different tools to showcase versatility in the analytics toolchain.
+
+## 1. SQL Analysis — Business Questions in Pure Query Logic
 
 
 11 queries covering the full analytical spectrum:
 
 
-## Query and Technique
+### Query and Technique
 
 1. Total revenue by year- GROUP BY
 
@@ -71,7 +74,7 @@ Rather than sticking to a single tool, this project answers the same business qu
 
 
 
-# 2. Excel Analysis — Stakeholder-Ready Pivots
+## 2. Excel Analysis — Stakeholder-Ready Pivots
 
 A clean, presentation-style workbook with:
 
@@ -84,7 +87,7 @@ A clean, presentation-style workbook with:
 
 
 
-# 3. Python Analysis — EDA + Forecasting
+## 3. Python Analysis — EDA + Forecasting
 
 * Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
@@ -102,7 +105,7 @@ A clean, presentation-style workbook with:
 
 
 
-# 4. Power BI Dashboard — Interactive Storytelling
+## 4. Power BI Dashboard — Interactive Storytelling
 
 A drillable dashboard tying every insight above into a single interactive view — filter by year, region, platform, and sales channel to explore revenue, player base, and monetization trends visually.
 
