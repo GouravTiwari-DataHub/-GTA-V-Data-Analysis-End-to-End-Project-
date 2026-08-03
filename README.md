@@ -1,4 +1,4 @@
-# 🎮 GTA V Global Sales & Player Analytics (End to End Project)
+# GTA V Global Sales & Player Analytics (End to End Project)
 
 A 360° data analysis project exploring 10+ years of Grand Theft Auto V sales, player engagement, and monetization data — through SQL, Excel, Python, and Power BI.
 
@@ -22,19 +22,19 @@ Rather than sticking to a single tool, this project answers the same business qu
 
 ## Key Questions Answered
 
-💰 How has global revenue evolved year-over-year, and what's the cumulative growth trend?
+-How has global revenue evolved year-over-year, and what's the cumulative growth trend?
 
-🌍 Which countries and regions drive the most units sold and revenue?
+-Which countries and regions drive the most units sold and revenue?
 
-🎮 Is GTA Online cannibalizing Story Mode engagement — and where?
+-Is GTA Online cannibalizing Story Mode engagement — and where?
 
-💳 How much of the revenue mix comes from DLC vs. Shark Card purchases?
+-How much of the revenue mix comes from DLC vs. Shark Card purchases?
 
-🏆 How do sale events affect discount depth and refund rates?
+-How do sale events affect discount depth and refund rates?
 
-📉 Does GDP per capita correlate with regional spending power?
+-Does GDP per capita correlate with regional spending power?
 
-🔮 What does the next 12 months of revenue look like? (Prophet forecast)
+-What does the next 12 months of revenue look like? (Prophet forecast)
 
 
 
@@ -119,17 +119,17 @@ A clean, presentation-style workbook with:
 Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
 
-✅ Data Cleaning: null handling (special_event, major_sale_event), duplicate & negative-value checks, outlier detection via boxplots
+Data Cleaning: null handling (special_event, major_sale_event), duplicate & negative-value checks, outlier detection via boxplots
 
-📅 Feature Engineering: synthetic date column from year + month for time-series work
+Feature Engineering: synthetic date column from year + month for time-series work
 
-🔥 Correlation Heatmap: relationships between revenue, discounting, marketing spend, GDP, and internet penetration
+Correlation Heatmap: relationships between revenue, discounting, marketing spend, GDP, and internet penetration
 
-🧩 Segment Analysis: revenue & refund rate by sales channel, region vs. macroeconomic factors, GDP vs. revenue scatter plots
+Segment Analysis: revenue & refund rate by sales channel, region vs. macroeconomic factors, GDP vs. revenue scatter plots
 
-⏳ Time-Series & Seasonality: revenue trends over time, holiday vs. non-holiday spending, platform generation transitions
+Time-Series & Seasonality: revenue trends over time, holiday vs. non-holiday spending, platform generation transitions
 
-🔮 Forecasting: 12-month revenue forecast using Facebook Prophet, with confidence intervals (yhat_lower / yhat_upper)
+Forecasting: 12-month revenue forecast using Facebook Prophet, with confidence intervals (yhat_lower / yhat_upper)
 
 
 
@@ -137,7 +137,7 @@ Built with pandas, numpy, matplotlib, seaborn, and prophet:
 
 A drillable dashboard tying every insight above into a single interactive view — filter by year, region, platform, and sales channel to explore revenue, player base, and monetization trends visually.
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ### Executive Overview
 <img width="1170" height="732" alt="Dashboard 1  Executive Summery" src="https://github.com/user-attachments/assets/b5a47b75-11d1-4077-8521-15e9ef5aa1ae" />
@@ -166,15 +166,14 @@ SQL · Python (Pandas, NumPy, Matplotlib, Seaborn, Prophet) · Microsoft Excel �
 
 # Highlights
 
-🔢 11 SQL queries spanning aggregation → window functions → CTEs → correlated subqueries
+11 SQL queries spanning aggregation → window functions → CTEs → correlated subqueries
 
-📊 7 Excel pivot tables built for non-technical stakeholders
+7 Excel pivot tables built for non-technical stakeholders
 
-🐍 Full Python EDA pipeline with cleaning, correlation, segmentation, and time-series forecasting
+Full Python EDA pipeline with cleaning, correlation, segmentation, and time-series forecasting
 
-📈 Power BI dashboard for interactive exploration
-
-🌐 Multi-year, multi-country, multi-platform dataset (2013–2018+)
+Power BI dashboard for interactive exploration
+ Multi-year, multi-country, multi-platform dataset (2013–2018+)
 
 
 
