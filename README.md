@@ -36,8 +36,8 @@ Rather than sticking to a single tool, this project answers the same business qu
 
 * What does the next 12 months of revenue look like? (Prophet forecast)
 
-
 # Tools & Techniques Used
+
 ### This project intentionally recreates the same analysis across four different tools to showcase versatility in the analytics toolchain.
 
 ## 1. SQL Analysis — Business Questions in Pure Query Logic
