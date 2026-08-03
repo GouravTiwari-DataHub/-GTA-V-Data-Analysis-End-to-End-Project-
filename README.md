@@ -37,34 +37,6 @@ Rather than sticking to a single tool, this project answers the same business qu
 * What does the next 12 months of revenue look like? (Prophet forecast)
 
 
-
-
-
-
-
-# Repository Structure
-
-GTA-V-Sales-Analytics/
-├── README.md
-├── data/
-│   └── GTA_V_Raw_Dataset.csv          # Source dataset (transaction-level)
-├── sql/
-│   └── GTA_V_SQL_analysis.sql         # 11 analytical SQL queries
-├── excel/
-│   └── GTA_V_Excel_Analysis.xlsx      # Pivot tables & summary dashboard
-├── python/
-│   └── GTA_V_Python_Analysis.ipynb    # EDA, correlation, forecasting
-├── powerbi/
-│   └── GTA_V_Power_BI_Analysis.pbix   # Interactive dashboard
-└── assets/
-    └── screenshots/                    # Dashboard & chart previews
-
-
-
-
-
-
-
 # 1. SQL Analysis — Business Questions in Pure Query Logic
 
 
