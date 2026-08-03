@@ -104,13 +104,11 @@ GTA-V-Sales-Analytics/
 A clean, presentation-style workbook with:
 
 
-1. Introduction & Conclusion sheets framing the story.
+* Introduction & Conclusion sheets framing the story.
 
+* 7 Pivot Tables covering revenue/units, country-wise sales, platform trends, player engagement, revenue sources, customer growth, and customer sentiment.
 
-2. 7 Pivot Tables covering revenue/units, country-wise sales, platform trends, player engagement, revenue sources, customer growth, and customer sentiment.
-
-
-3. Digital vs. Physical sales share tracked across platform generations (PS3 → PS5 / Xbox 360 → Series X|S).
+* Digital vs. Physical sales share tracked across platform generations (PS3 → PS5 / Xbox 360 → Series X|S).
 
 
 
